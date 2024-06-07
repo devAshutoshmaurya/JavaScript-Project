@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>changeColor</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            width: 100%;
+        }
+        section{   
+            height: 150px;                 width: 100%;  
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            border: 5px solid black;
+            border-radius: 10px;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+        h1{
+            padding-top: 40px;
+            text-align: center; 
+            text-transform: uppercase;      
+            
+            
+        }
+        p{
+            text-align: center;
+            font-size: 26px;
+            font-weight: 700;
+            font-variant: small-caps;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>color scheme switcher</h1>
+
+    <section>
+        
+        <div class="box1 box" style="background-color: rgb(98, 98, 221);"></div>
+        <div class="box2 box" style="background-color: rgb(234, 96, 96);"></div>
+        <div class="box3 box" style="background-color: rgb(92, 252, 92);"></div>
+        <div class="box3 box" style="background-color: gray;"></div>
+     
+    </section>
+    <p>Try clicking on one of the colors above <br>
+        to change the background color of this <br>
+         page!
+    </p>
+    
+    
+    <script src="app.js"></script>
+</body>
+</html>
