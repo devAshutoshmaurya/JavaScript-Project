@@ -1,2 +1,2 @@
 # script
-JavaScript project is here
+JavaScript project 
