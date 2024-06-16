@@ -1,0 +1,30 @@
+
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            text-align: center;
+
+            font-size: 1.5rem;
+        }
+        h1, #btn, .box{
+            margin: 20px 0 20px 0;
+            
+        }
+        #btn{
+            border-radius: .5rem;
+            padding: .25rem;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+        .box{
+            height: 200px;
+            width: 600px;
+            border: 2px solid black;
+            border-radius: .25rem;
+            margin: 20px auto;
+          
+        }
+
