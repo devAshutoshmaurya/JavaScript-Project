@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+}
+.main{
+    height: 550px;
+    width: 50%;
+    margin: 80px auto;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 10px;
+}
+input{
+    height: 40px;
+    width: 100% ; 
+    font-size: 1.4rem;
+    padding: 5px;
+}
+.box{
+    margin: 10px;
+}
+.box ul{
+    list-style-type: number;
+    list-style-position: inside;
+    margin-top: 15px;
+}
+.box ul li{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    position: relative;
+    text-align: justify;
+    padding-right: 30px;
+}
+
+ul li i{
+    width: 30px;
+    position: absolute;
+    padding-left: 10px;
+    top: 10px;
+    right: 10px;
+   
+}
+.done{
+    text-decoration: line-through;
+    background-color: rgb(146, 146, 146) !important;
+}
