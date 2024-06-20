@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temparature Converter</title>
+    <link rel="stylesheet" href="sstyle.css">
+</head>
+
+<body>
+
+    <h1>TEMPARATURE CONVERTER</h1>
+    <div class="container">
+        <div class="component">
+            <div class="common">
+                <label for="celcius">Celcius</label>
+                <div class="temp-data">
+                    <input type="number" id="celcius" class="celcius">
+                    <div class="degree">&deg;C</div>
+                </div>
+            </div>
+            <div class="common">
+                <label for="fahrenheit">Fahrenheit</label>
+
+                <div class="temp-data">
+                    <input type="number" id="fahrenheit" class="fahrenheit">
+                    <div class="degree">&deg;F</div>
+                </div>
+            </div>
+            <div class="common">
+                <label for="kelvin">Kelvin</label>
+
+                <div class="temp-data">
+                    <input type="number" id="kelvin" class="kelvin">
+                    <div class="degree">&deg;K</div>
+                </div>
+            </div>
+        </div>
+        <div class="formula">
+            <ul>
+                <li>Temperature conversion formula for <span>Celsius to Fahrenheit [ F = C × (9/5) + 32 ]</span></li>
+                <li>Temperature conversion formula for <span>Fahrenheit to Celsius [ C = (F – 32) × (5/9) ]</span></li>
+                <li>Temperature conversion formula for <span>Celsius to Kelvin [ K = C + 273.15 ]</span> </li>
+                <li>Temperature conversion formula for <span> Kelvin to Celsius [ C = K – 273.15 ]</span></li>
+                <li>Temperature conversion formula for <span>Fahrenheit to Kelvin [ K = (F – 32) × (5/9) + 273.15
+                        ]</span></li>
+                <li>Temperature conversion formula for <span>Kelvin to Fahrenheit [ F = (K – 273.15) × (9/5) + 32
+                        ]</span>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+
+    <script src="temp.js"></script>
+
+</body>
+
+</html>
