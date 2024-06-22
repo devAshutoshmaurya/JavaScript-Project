@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1679AB;
+}
+section{
+    height: 500px;
+    width: 50%;
+    margin: 30px auto;
+    padding: 20px 30px;
+    background-color: rgb(164, 164, 164);
+    color: #FBF3D5;
+    box-shadow: 4px 4px 5px black;
+    border-radius: 6px;
+    border: none;
+}
+.name{
+    height: 130px;
+    border-bottom: 4px solid black;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 3px 5px 7px black;
+    padding: 10px;
+    background-color: rgb(103, 103, 103);
+    border-bottom: 4px solid black;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 6px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+
+}
+/* h1::after{
+    content: "";
+    position: absolute;
+    border: 4px solid black;
+    width: 22%;
+    top: 20%;
+    left: 39%;
+} */
+.age-value{
+    width: 100%;
+    /* padding: 40px 0 50px 0; */
+    margin: 50px 0 60px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(97, 207, 207); */
+}
+input{
+    height: 50px;
+    width: 92%;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    text-shadow: 3px 5px 7px black;
+    background-color: rgb(103, 103, 103);
+    box-shadow: 5px 5px 9px black;
+    letter-spacing: 2px;
+}
+input::placeholder{
+    color: rgb(154, 152, 152);
+    text-shadow: 0 0 7px black;
+    text-align: center;
+    font-size: 25px;
+    /* letter-spacing: 2px; */
+}
+input:focus{
+    outline: none;
+}
+i{
+    font-size: 50px;
+    margin-left: 10px;
+    text-shadow: 2px 3px 5px black;
+    color: black;
+   cursor: pointer;
+    /* background-color: black; */
+}
+.age{
+    width: 100%;
+    display: flex;
+   justify-content: space-between;
+    font-size: 30px;
+}
+.age-data{
+    height: 130px;
+    width: 20%;
+    text-align: center;
+}
+.data{
+    height: 70px;
+    width: 100%;
+    /* font-size: 30px; */
+    /* padding: 10px; */
+    line-height: 70px;
+    text-shadow: 3px 8px 7px black;
+    background-color: rgb(103, 103, 103);
+    box-shadow: 5px 5px 5px black;
+    border-radius: 6px;
+}
+.data-name{
+    margin-top: 10px;
+    font-weight: 600;
+    text-shadow: 3px 5px 7px black;
+
+}
+
+/* Responsive */
+
+/*  Responsive for Mobile */
+
+
+/* extra small */
+@media (max-width:475px) {
+    section{
+        width: 95%;
+        padding: 20px 5px;
+        
+    }
+    h1{
+        font-size: 20px;
+    }
+    input{
+        /* height: 50px; */
+        width: 95%;
+        font-size: 15px;
+        /* letter-spacing: 2px; */
+    }
+    input::placeholder{
+        font-size: 12px;
+    }
+    .age{
+        font-size: 16px;
+    }
+    
+}
+
+/* small */
+@media (min-width:476px) and (max-width:575px) {
+    section{
+        width: 85%;
+        
+    }
+    h1{
+        font-size: 25px;
+    }
+    input{
+        /* height: 50px;
+        width: 85%; */
+        font-size: 20px;
+        /* letter-spacing: 2px; */
+    }
+    input::placeholder{
+        font-size: 15px;
+    }
+    .age{
+        font-size: 20px;
+    }
+    
+}
+
+/*Responsive for tablets */
+@media (min-width:576px) and (max-width:768px){
+    section{
+        width: 70%;
+    }
+
+h1{
+    font-size: 25px;
+}
+/* input{
+    /* height: 40px; */
+    /* width: 85%; */
+    /* font-size: 30px; */
+    /* letter-spacing: 2px; */
+
+input::placeholder{
+    font-size: 20px;
+}
+.age{
+    font-size: 25px;
+}
+}
+
+
+/* Responsive for laptop */
+@media (min-width:769px) and (max-width:1024px){
+    section{
+        width: 65%;
+    }
+
+h1{
+    font-size: 35px;
+}
+
+
+}
