@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: 400px;
+    width: 50%;
+    margin: 50px auto;
+    background-color: rgb(115, 115, 115);
+    padding: 20px;
+    color: white;
+}
+.heading{
+  border-bottom: 4px solid black;
+    padding-bottom: 10px;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    
+}
+.today{
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+}
+.all-time{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 50px;
+
+}
+.time{
+    width: 15%;
+   text-align: center;
+
+}
+.time-value{
+   height: 70px;
+   width: 100%;
+   /* display: flex;
+   justify-content: center;
+   align-items: center; */
+   line-height: 70px;
+   font-size: 30px;
+   border: none;
+   box-shadow: 0 0 6px white;
+   border-radius: 6px;
+}
+.time-name{
+    margin-top: 10px;
+    font-size: 25px;
+
+}
