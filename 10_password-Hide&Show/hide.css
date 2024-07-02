@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 200px;
+    width: 30%;
+    margin: 50px auto;
+    background-color: aquamarine;
+}
+.main{
+    width: 90%;
+    /* position: relative; */
+}
+.pass{
+    height: 40px;
+    margin: 20px;
+    width: 70%;
+    padding: 10px;
+    font-size: 1.2rem;
+    /* position: relative; */
+}
+.main i{
+    font-size: 30px;
+}
+
