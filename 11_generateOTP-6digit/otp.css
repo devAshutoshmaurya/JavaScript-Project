@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 40%;
+    margin: 50px auto;
+    height: 400px;
+    background-color: rgb(44, 62, 80);
+    border-radius: 8px;
+    box-shadow: 3px 3px 5px black;
+
+}
+.main{
+    text-align: center;
+}
+#btn{
+    width: 60%;
+    height: 90px;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 50px 0;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(43, 43, 43);
+    box-shadow: 4px 4px 5px rgb(0, 0, 0);
+    color: rgb(253, 251, 251);
+    cursor: pointer;
+
+}
+.otp{
+    margin: 0 auto;
+    height: 90px;
+    width: 200px;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    text-align: center;
+    line-height: 90px;
+    /* background-color: rgb(126, 125, 125); */
+    color: white;
+    text-shadow: 2px 5px 5px black;
+}
