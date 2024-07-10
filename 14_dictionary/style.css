@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ae9cff;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    /* height: 70vh; */
+    width: 50vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    color: #000;
+    padding: 70px 50px;
+    border-radius: 8px;
+    /* border: 2px solid #000; */
+    border: none;
+}
+input{
+    height: 50px;
+    width: 70%;
+    padding-bottom: 10px;
+    border: none;
+    font-size: 25px;
+    font-weight: 600;
+    border-bottom: 2px solid #ae9cff;
+}
+input:focus{
+    border-bottom: 2px solid #ae9cff;
+    outline: none;
+}
+#btn{
+    width: 150px;
+    margin-left: 40px;
+    font-size: 25px;
+    padding: 15px;
+    background-color: #ae9cff;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+}
+.result{
+    margin-top: 80px;
+}
+.result .word{
+    display: flex;
+    justify-content: space-between;
+}
+.word h1{
+    font-size: 40px;
+}
+.word .icon{
+    font-size: 40px;
+    opacity: 0.6;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+.result .details{
+    display: flex;
+    gap: 10px;
+}
+.result p{
+    margin: 10px 0 25px 0;
+    opacity: 0.6;
+    font-weight: 600;
+}
+.result h2{
+    font-weight: 900;
+}
+.result h3{
+     margin-top: 40px;
+     padding-left: 30px;
+     border-left: 4px solid rgb(199, 97, 199);
+     font-weight: 900;
+     font-style: italic;
+}
