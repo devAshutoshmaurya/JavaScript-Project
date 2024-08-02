@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>news website</title>
+    <link rel="stylesheet" href="news.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="main-nav flex container">
+            <div class="nav-logo">
+                <img class="news-logo" id="news-logo" src="logo.png" alt="news logo">
+            </div>
+            <div class="nav-links">
+                <ul class="flex">
+                    <li class="nav-item hover-link" id="ipl" onclick="onNavItemClick('ipl')">IPL</li>
+                    <li class="nav-item hover-link" id="finance" onclick="onNavItemClick('finance')">Finance</li>
+                    <li class="nav-item hover-link" id="politics" onclick="onNavItemClick('politics')">Politics</li>
+                </ul>
+            </div>
+            <div class="search-bar flex">
+                <input type="text" class="news-input" placeholder="e.g Science">
+                <button id="search-btn" class="search-button">Search</button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="cards-container container flex" id="cards-container">
+           
+        </div>
+    </main>
+
+    <!-- <template id="cards-template">
+        <div class="card">
+            <div class="card-header">
+                <img id="news-img" src="https://t3.ftcdn.net/jpg/03/27/55/60/360_F_327556002_99c7QmZmwocLwF7ywQ68ChZaBry1DbtD.jpg" alt="news-image">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title" class="news-title">this is the title</h3>
+                <h6 id="news-source" class="news-source">times of india 29/4/2024</h6>
+                <p id="news-desc" class="news-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis sequi molestiae natus odit
+                    magnam, dolore dolorem illum cupiditate enim excepturi.
+                </p>
+            </div>
+        </div>
+    </template> -->
+<!-- 
+         else{
+               let cardClone = document.createElement("div")
+               cardsContainer.appendChild(cardClone);
+               cardClone.innerHTML = `<div class="card">
+            <div class="card-header">
+                <img src="${article.urlToImage}" alt="news-image">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title" class="news-title">${article.title}</h3>
+                <h6 id="news-source" class="news-source">${article.source.name}</h6>
+                <p id="news-desc" class="news-desc">${article.description}
+                </p>
+            </div>
+        </div>`}
+ -->
+
+
+    <script src="news.js"></script>
+</body>
+
+</html>
