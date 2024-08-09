@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker App</title>
+    <link rel="stylesheet" href="tracker.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1 class="app">Expense Tracker App</h1>
+
+        <div class="budget">
+            <label for="budget">Budget:</label>
+            <input type="number" id="budget" placeholder="Enter Your Budget">
+            <button class="cal">Calculate</button>
+            <h1>|</h1>
+
+            <input type="text" id="details" placeholder="Enter Your Expense Details">
+            <h1>|</h1>
+
+            <div class="expense-amount">
+                <input type="text" id="amount" placeholder="Enter Your Expense Amount">
+                <button class="exp">Add Expense</button>
+            </div>
+        </div>
+
+        <div class="expense-details">
+            <div class="initial-amount amount">
+                <img src="https://img.freepik.com/free-vector/budget-management-accounts_603843-1682.jpg"
+                    alt="Budget-img">
+                <div>
+                    <h2 class="budget-amount">$ 0.00</h2>
+                    <h4>Budget</h4>
+                </div>
+
+            </div>
+            <div class="amount">
+                <img src="https://cdn5.vectorstock.com/i/1000x1000/48/24/expenses-rubber-stamp-vector-12744824.jpg"
+                    alt="enpense-img">
+                <div>
+                    <h2 class="expense-val">$ 0.00</h2>
+                    <h4>Expense</h4>
+                </div>
+            </div>
+            <div class="balance amount">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVnEABccNB3vXewUofyuasC5cVS615zXtFHQ&s"
+                    alt="balance-img">
+                <div>
+                    <h2 class="balance-val">$ 0.00</h2>
+                    <h4>Balance</h4>
+                </div>
+            </div>
+        </div>
+
+
+
+        <h2 id="bgt">Expense History : </h2>
+        <div class="budget-details">
+
+            <ul>
+                <!-- <li>
+                    <span class="product">reydmhmh</span>
+                    <span class="value">76</span>
+                    <button class="delet">Delet</button>
+                </li> -->
+            </ul>
+        </div>
+
+
+    </div>
+
+
+    <script src="tracker.js"></script>
+</body>
+
+</html>
